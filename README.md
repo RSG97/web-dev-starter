@@ -30,7 +30,7 @@ npm test
 
 ## Running the Project
 
-To run the code, enter the following command into the search bar at the top of vscode window:
+To run the code, enter the following command into the search bar at the top of the vscode window:
 ```bash
 >Live Preview: Start Server
 ```
