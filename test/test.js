@@ -47,4 +47,12 @@ QUnit.module('main.js tests', function() {
         assert.equal(result, expected, 'add(2, -3) should return -1');
     });
 
+    QUnit.test('add should throw an error if no arguments are provided', function(assert) {
+        //Act & Assert
+        assert.throws(
+            () => add(),
+            /You must provide two numbers to add/,
+            'add() should throw an error when no arguments are provided'
+        );
+    });
 });

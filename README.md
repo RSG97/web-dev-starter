@@ -27,3 +27,10 @@ To run the tests for the project, run the following command:
 ```bash
 npm test
 ```
+
+## Running the Project
+
+To run the code, enter the following command into the search bar at the top of vscode window:
+```bash
+>Live Preview: Start Server
+```
